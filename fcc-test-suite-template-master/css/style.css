@@ -2,12 +2,31 @@
     height: 100vh;
   }
 
-  #navbar {
-
-    width: 100px;
-    align-self: flex-start;
-  }
+  
 
   header {
     position: fixed;
   }
+
+  nav#navbar {
+    width: 100vw;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    background-color: black;
+}
+
+nav#navbar >
+div.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.logo-container >
+img.logo-image {
+    max-height: 40px;
+}
