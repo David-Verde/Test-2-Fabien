@@ -1,12 +1,31 @@
+
+@media {
+    max-width: ;
+
+}
 #welcome-section {
     height: 100vh;
   }
 
   
 
+
   header {
     position: fixed;
-  }
+position: absolute;
+top: 0px;
+width: 100px;
+height: fit-content;
+padding: 26px 0px;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: red;
+
+}
+
+
 
   nav#navbar {
     width: 100vw;
